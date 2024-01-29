@@ -1,0 +1,290 @@
+body{
+    flex-wrap: wrap;
+}
+.nav-bar{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.form{
+    background-color: black;
+    color: #565c65;
+    border: 1px solid #565c65;
+    padding: 5px;
+    font-size: large;
+
+}
+.nav-bar{
+    display: flex;
+}
+.img{
+    background-color:white;
+    color: white;
+    border-radius: 10px;
+}
+.nasa{
+    text-align: center; 
+    margin-left: 20%;
+    margin-top: -10px;
+    padding-right: 200px;
+}
+.dropdown-menu{
+    background-color: black !important;
+}
+.dropdown-menu :hover{
+    background-color:red !important;
+}
+
+.dropdown-item{
+    color: white !important;
+}
+.dropdown-item :hover{
+    color: red !important;
+}
+.btn{
+    background-color: black !important;
+    border: 0px !important;
+    
+}
+.live{
+    padding-top: 10px;
+}
+.bold{
+    border: 1px solid #f64137;
+    font-size: 15px;
+    letter-spacing: 2px;
+    flex-wrap: wrap;
+
+}
+.bold:hover{
+    background-color: #f64137;
+    
+}
+.btn-group{
+    padding-bottom: 30px;
+}
+.main{
+    position: relative;
+    color: white;
+}
+.text-view{
+    position: absolute;
+}
+.h1{
+    font-size:50px !important;
+
+}
+.btns{
+    background-color: #f64137 !important;
+    color: white !important;
+    border: 0px;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+.d-block{
+    filter: brightness(0.8);
+}
+.head-news{
+    font-size:xx-large;
+    padding:  50px !important;
+
+}
+.news{
+    background-image: url(https://www.nasa.gov/wp-content/uploads/2024/01/cygnus-advisory-2024.jpg?resize=1200,800);
+    width: 637px;
+    height: 400px;
+    
+}
+.head-01{
+    margin-top: -91px !important;
+    margin-bottom: -91px !important;
+    color:white !important;
+    padding-left: 20px !important;
+    filter: brightness(1);
+    flex-wrap: wrap;
+    
+    
+}
+.image-02{
+   filter: brightness(0.5) !important;
+   
+    
+}
+.bld{
+    font-size: 12px;
+}
+.head-news{
+    font-size:xx-large;
+    padding:  50px !important;
+
+}
+.head-02{
+    margin-top: -120px !important;
+    color:white !important;
+    padding-left: 20px !important;
+    filter: brightness(1);
+    flex-wrap: wrap;
+    
+    
+}
+
+.img-fluid{
+   filter: brightness(0.5) !important;
+    
+}
+.bld{
+    font-size: 12px;
+}
+.news-01,.news-02,.news-03{
+    display: inline-block;
+    text-align: start !important;
+}
+.news-main{
+    text-align: center;
+  
+    
+
+}
+.img-01{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    
+}
+.x-main{
+    font-size: smaller;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.head-03{
+    margin-top: -550px !important;
+    color:white !important;
+    padding-left: 20px !important;
+    filter: brightness(1);
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+    padding-left: 80px !important;  
+}
+.b-1{
+    font-size: 80px;
+}
+.b-2{
+    font-size: 22.4px;
+}
+.bg-icon{
+    border-radius: 13.5px;
+}
+.news-04{
+    padding-bottom: 200px;
+}
+.img-day-txt{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.img-day-main{
+    display: flex;
+    padding-bottom: 50px;
+}
+.featured-vid-main{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+}
+.featured-vid-txt{
+    padding-left: 75px;
+    padding-top: 70px;
+}
+.b-3{
+    color:#d1d1d1 ;
+    font-size:smaller;
+}
+.para-vid{
+    color: #d1d1d1 ;
+}
+.featured-vid{
+    padding-left: 200px;
+}
+.head-04{ 
+    margin-top: -62px !important;
+    margin-bottom: -150px !important;
+    color:white !important;
+    padding-left: 20px !important;
+    filter: brightness(1);
+    flex-wrap: wrap;
+    
+    
+}
+.b-4{
+    font-size: 56px;
+
+}
+.cards-main{
+    padding-top: 50px;
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 10px;
+    margin-bottom: 50px !important;
+}
+.carousel-control-prev,.carousel-control-next{
+    visibility: hidden;
+}
+.footer-main{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: black;
+    color: white;
+
+}
+.footer{   
+    display: flex;
+    justify-content: space-between;
+}
+.nasa-logo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.para-footer{
+    color: #d1d1d1;
+    font-size: smaller;
+    
+}
+.list-1{
+
+}
+.list-1>ul>li{
+    list-style-type: none;
+}
+.list-2>ul>li{
+    list-style-type: none;
+}
+.list-3>ul>li{
+    list-style-type: none;
+}
+.list-4>ul>li{
+    list-style-type: none;
+}
+.b-5{
+    color: #d1d1d1;
+}
+hr{
+    color: #565c65;
+}
+.btn-group{
+    justify-content: right;   
+    /* padding-left: 100px; */
+    text-align: right;
+}
+
+
+
+
+
+
+    
